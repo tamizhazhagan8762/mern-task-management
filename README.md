@@ -52,3 +52,30 @@ Tech Stack
 - Styling: CSS
 - API: REST API
 - Version Control: Git & GitHub
+Project Structure
+
+mern-task-management/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.css
+│
+├── server/
+│   ├── server.js
+│   └── Task.js
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── index.html
+└── vite.config.js
+
+API Endpoints
+
+Method| Endpoint| Description
+GET| "/api/tasks"| Get all tasks
+POST| "/api/tasks"| Create a new task
+PUT| "/api/tasks/:id"| Update a task
+DELETE| "/api/tasks/:id"| Delete a task
