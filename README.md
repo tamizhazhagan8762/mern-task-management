@@ -8,7 +8,35 @@ Features
 
 - Create new tasks
 - Set task priority
-- Update task status
+- Update task statusInstallation
+
+1. Clone the repository
+
+git clone https://github.com/tamizazhagan8762/mern-task-management.git
+cd mern-task-management
+
+2. Install dependencies
+
+Frontend
+
+npm install
+
+Backend
+
+cd server
+npm install
+
+3. Start the application
+
+Start the backend server:
+
+node server.js
+
+Then start the React frontend from the project root:
+
+npm run dev
+
+The application will be available locally through the Vite development server.
 - Delete tasks
 - Search tasks
 - Filter tasks
