@@ -79,3 +79,12 @@ GET| "/api/tasks"| Get all tasks
 POST| "/api/tasks"| Create a new task
 PUT| "/api/tasks/:id"| Update a task
 DELETE| "/api/tasks/:id"| Delete a task
+Environment Variables
+
+Create a ".env" file inside the "server" folder and add your MongoDB connection details:
+
+MONGO_URI=your_mongodb_connection_string
+
+«Note: Never commit your ".env" file or expose your MongoDB username and password publicly.»
+
+Make sure ".env" is included in ".gitignore".
