@@ -88,3 +88,13 @@ MONGO_URI=your_mongodb_connection_string
 «Note: Never commit your ".env" file or expose your MongoDB username and password publicly.»
 
 Make sure ".env" is included in ".gitignore".
+Author
+
+Tamizhazhagan
+
+Computer Science & Engineering Student
+Aspiring Full Stack Developer
+
+License
+
+This project is created for learning and portfolio purposes.
