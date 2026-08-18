@@ -1,100 +1,18 @@
-MERN Task Management App
+# React + Vite
 
-A full-stack Task Management application built using the MERN stack — MongoDB, Express.js, React, and Node.js.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This application allows users to create, manage, search, filter, update, and delete tasks through a simple and responsive interface.
+Currently, two official plugins are available:
 
-Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- Create new tasks
-- Set task priority
-- Update task statusInstallation
+## React Compiler
 
-1. Clone the repository
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-git clone https://github.com/tamizazhagan8762/mern-task-management.git
-cd mern-task-management
+## Expanding the ESLint configuration
 
-2. Install dependencies
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-Frontend
-
-npm install
-
-Backend
-
-cd server
-npm install
-
-3. Start the application
-
-Start the backend server:
-
-node server.js
-
-Then start the React frontend from the project root:
-
-npm run dev
-
-The application will be available locally through the Vite development server.
-- Delete tasks
-- Search tasks
-- Filter tasks
-- Store tasks in MongoDB
-- REST API using Express.js
-- Responsive React frontend
-
-Tech Stack
-
-- Frontend: React.js, Vite
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- Styling: CSS
-- API: REST API
-- Version Control: Git & GitHub
-Project Structure
-
-mern-task-management/
-│
-├── public/
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   └── index.css
-│
-├── server/
-│   ├── server.js
-│   └── Task.js
-│
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── index.html
-└── vite.config.js
-
-API Endpoints
-
-Method| Endpoint| Description
-GET| "/api/tasks"| Get all tasks
-POST| "/api/tasks"| Create a new task
-PUT| "/api/tasks/:id"| Update a task
-DELETE| "/api/tasks/:id"| Delete a task
-Environment Variables
-
-Create a ".env" file inside the "server" folder and add your MongoDB connection details:
-
-MONGO_URI=your_mongodb_connection_string
-
-«Note: Never commit your ".env" file or expose your MongoDB username and password publicly.»
-
-Make sure ".env" is included in ".gitignore".
-Author
-
-Tamizhazhagan
-
-Computer Science & Engineering Student
-Aspiring Full Stack Developer
-
-License
-
-This project is created for learning and portfolio purposes.
+![Task Management Dashboard](./screenshots/dashboard.png)
