@@ -1,16 +1,26 @@
-# React + Vite
+MERN Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Task Management application built using the MERN stack — MongoDB, Express.js, React, and Node.js.
 
-Currently, two official plugins are available:
+This application allows users to create, manage, search, filter, update, and delete tasks through a simple and responsive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+- Create new tasks
+- Set task priority
+- Update task status
+- Delete tasks
+- Search tasks
+- Filter tasks
+- Store tasks in MongoDB
+- REST API using Express.js
+- Responsive React frontend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React.js, Vite
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Styling: CSS
+- API: REST API
+- Version Control: Git & GitHub
